@@ -1,0 +1,6 @@
+﻿single-node/config/wazuh_indexer_ssl_certs/
+*.key
+*.pem
+*.msi
+*.zip
+*.log
