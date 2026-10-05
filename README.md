@@ -77,3 +77,11 @@ Registered the Windows endpoint to the containerized manager (\127.0.0.1:1514\) 
 ### Case 2: Security Configuration Assessment (CIS Benchmark)
 - **Policy Evaluated:** CIS Microsoft Windows 11 Enterprise Benchmark v1.0.0
 - **Results:** Audit generated baseline score (32%) highlighting unhardened endpoint parameters.
+Add-Content -Path "README.md" -Value @"
+
+---
+
+## Detection Rule Verification
+
+![Wazuh Detection Rule 92058](docs/screenshots/01-threat-alert.png)
+*Figure: Wazuh Rule ID 92058 (Level 12 - Sysmon EID 1 Process Creation Telemetry)*
